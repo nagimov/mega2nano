@@ -42,6 +42,18 @@ Optional THT (5mm) or SMD (0805) bypass capacitor can be placed on 5V rail (C1 o
 | A2   | A2   | -    |    | D4   | D4   | -    |    |      |      |      |
 | A3   | A3   | -    |    | D5   | D5   | -    |    |      |      |      |
 
+## Assembly
+
+- Connect the pads of solder jumpers corresponding to required Nano V3 pins.
+- Solder header pins following Nano V3 layout facing away from the layer with solder jumpers.
+- Solder header sockets following Mega 2560 PRO Embed layout facing towards the layer with solder jumpers. Header sockets don't have to be connected to the entire footprint of Mega 2560 PRO Embed. Populated pads of the adapter board are marked and annotated. You might choose to leave unused populated pins empty as well.
+
+![assembly](assets/assembly.png)
+
+Depending on layouts of Nano V3 modules, some modifications of the adapter board and/or Nano V3 shields might be required. E.g., a popular ENC28J60 ethernet network shield is equipped with a tall metalized 8P8C jack. Due to the interference of the adapter board with the 8P8C jack, longer header pins are required to maintain a reliable connection with the shield. Solder joints of socket headers at the short side of the adapter board must be trimmed flush with the board and protected from shorting on the metalized 8P8C jack by a layer of insulation (electrical tape, heat shrink, etc.)
+
+![ethernet-shield](assets/ethernet-shield.png)
+
 ## [License](LICENSE)
 
 (C) 2020 Ruslan Nagimov
