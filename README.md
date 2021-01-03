@@ -25,7 +25,7 @@ This adapter is designed with the following in mind:
 - The rest of analog (A0-A7) and digital pins (D0-D9) are matched directly.
 - State of every pin (connected/disconnected) can be configured individually using solder jumpers.
 
-Optional THT (5mm) or SMD (0805) bypass capacitor can be placed on 5V rail (C1 or C2).
+Optional THT (5mm) or SMD (0805) bypass capacitors can be placed on 5V (C1 or C2) and 3.3V (C3 or C4) rails.
 
 ## Pinout
 
@@ -56,7 +56,7 @@ Depending on layouts of Nano V3 modules, some modifications of the adapter board
 
 ## [License](LICENSE)
 
-(C) 2020 Ruslan Nagimov
+(C) 2021 Ruslan Nagimov
 
 This source describes Open Hardware and is licensed under the [CERN-OHL-W v2](https:/cern.ch/cern-ohl)
 
